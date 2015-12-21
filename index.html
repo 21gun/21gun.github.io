@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Huangshan personal website</title>
+    <link rel="stylesheet" href="style/style.css"/>
+    <script src="js/sea.js"></script>
+    <!--[if IE 8]>
+    <script src="js/html5.min.js"></script>
+    <![endif]-->
+    <script>
+        window.onload=function(){
+            seajs.use('mod.js',function(mod){
+                mod.banner();
+                mod.topNav();
+                mod.menuLeft();
+                mod.myCase();
+                mod.backTop();
+                mod.myForm();
+                mod.rtFixed();
+            })
+        }
+    </script>
+</head>
+<body>
+<!--
+header
+-->
+    <header>
+    <div class="header-wrap">
+        <div class="header">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="Huangshan personal website logo" width="97" height="77"/>
+            </div>
+            <div class="menu">
+                <h4>菜单</h4>
+                <div class="menu-body">
+                    <b>MENU</b>
+                    <div class="menu-line">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="menu-nav" id="js-lt-menu">
+                    <a href="#1f">关于</a>
+                    <a href="#2f">作品</a>
+                    <a href="#3f">联系</a>
+                </div>
+            </div>
+            <div class="header-nav" id="js-top-nav">
+                <a href="#1f">
+                    <b>关于</b>
+                    <span>ABOUT</span>
+                </a>
+                <a href="#2f">
+                   <b>作品</b>
+                   <span>WORKS</span>
+                </a>
+                <a href="#3f">
+                    <b>联系</b>
+                    <span>CONTACT</span>
+                </a>
+            </div>
+            <div class="header-lt">
+                <span class="header-lt-img"></span>
+                <a href="javascript:;">ABOUT ME</a>
+            </div>
+        </div>
+    </div>
+    </header>
+<!--
+        banner
+-->
+    <div class="banner-wrap" id="js-ban-wrap">
+        <div class="banner-body-wrap">
+            <div class="banner-body" id="js-banner">
+                <ul>
+                    <li><img src="img/ban01.jpg" alt="huangshan banner"/></li>
+                    <li><img src="img/ban02.jpg" alt="huangshan banner"/></li>
+                    <li><img src="img/ban03.jpg" alt="huangshan banner"/></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner-btn" id="js-ban-btn">
+            <ol>
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+            </ol>
+        </div>
+    </div>
+
+<!--
+content
+-->
+    <section>
+    <div class="content">
+
+
+<!--
+        about body
+-->
+        <div class="about-wrap">
+<!--
+        nav btn
+-->
+            <nav>
+                <div class="nav-wrap">
+                    <div class="big-nav">
+                        <ul>
+                            <li>
+                                <a href="javascript:;" class="nav-about">ABOUT</a>
+                                <div class="nav-about02">关于</div>
+                                <span></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="nav-works">WORKS</a>
+                                <div class="nav-works02">作品</div>
+                                <span></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="nav-contact">CONTACT</a>
+                                <div class="nav-contact02">联系</div>
+                                <span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="about-title" id="1f">
+                <h2>ABOUT ME</h2>
+                <span></span>
+            </div>
+            <div class="about-Intr">
+                <dl>
+                    <dt>
+                        <span>我</span>
+                    </dt>
+                    <dd>
+                            <span>2006-2009年就读于安徽工业学院</span>
+                            <span>所学专业计算机应用</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <span>爱好</span>
+                    </dt>
+                    <dd>
+                            <span>平时喜欢看电影，听音乐，夜跑一族，一枚足球迷</span>
+                            <span>从2000年欧锦赛喜欢足球一直到如今</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <span>工作</span>
+                    </dt>
+                    <dd>
+                            <span>刚毕业时候做过很多杂七杂八的工作和事情</span>
+                            <span>3年网页设计</span>
+                            <span>1年前端开发</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <span>性格</span>
+                    </dt>
+                    <dd>
+                            <span>随和，善良，真诚，责任</span>
+                    </dd>
+                </dl>
+            </div>
+            <div class="about-skill">
+                <h4>武艺</h4>
+                <div class="about-skill-layout">
+                    <div class="about-skill-body">
+                        <ul>
+                            <li>
+                                <span>photoshop</span>
+                                <div>
+                                    <b class="skill-01"></b>
+                                </div>
+                            </li>
+                            <li>
+                                <span>illustrator</span>
+                                <div>
+                                    <b class="skill-02"></b>
+                                </div>
+                            </li>
+                            <li>
+                                <span>flash</span>
+                                <div>
+                                    <b class="skill-03"></b>
+                                </div>
+                            </li>
+                            <li>
+                                <span>html5</span>
+                                <div>
+                                    <b class="skill-04"></b>
+                                </div>
+                            </li>
+                            <li>
+                                <span>javascript</span>
+                                <div>
+                                    <b class="skill-05"></b>
+                                </div>
+                            </li>
+                            <li>
+                                <span>jquery</span>
+                                <div>
+                                    <b class="skill-06"></b>
+                                </div>
+                            </li>
+                            <li>
+                                <span>zepto</span>
+                                <div>
+                                    <b class="skill-07"></b>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--
+        case
+-->
+        <div class="case" id="2f">
+            <div class="case-body">
+                <div class="case-title">
+                    <h4>
+                        作品案例
+                        <span>Works Case</span>
+                    </h4>
+                </div>
+                <div class="case-li" id="js-case">
+                    <ul>
+                        <li>
+                            <img src="img/case01.jpg" alt="huangshan case" width="241" height="155"/>
+                            <div class="case-mask01"></div>
+                        </li>
+                        <li>
+                            <img src="img/case02.jpg" alt="huangshan case" width="241" height="155"/>
+                            <div class="case-mask02"></div>
+                        </li>
+                        <li>
+                            <img src="img/case03.jpg" alt="huangshan case" width="241" height="155"/>
+                            <div class="case-mask03"></div>
+                        </li>
+                        <li>
+                            <img src="img/case04.jpg" alt="huangshan case" width="241" height="155"/>
+                            <div class="case-mask04"></div>
+                        </li>
+                        <li>
+                            <img src="img/case05.jpg" alt="huangshan case" width="241" height="155"/>
+                            <div class="case-mask05"></div>
+                        </li>
+                        <li>
+                            <img src="img/case06.jpg" alt="huangshan case" width="241" height="155"/>
+                            <div class="case-mask06"></div>
+                        </li>
+                    </ul>
+                </div>
+                <a href="javascript:;">MORE+</a>
+            </div>
+        </div>
+<!--
+        message
+-->
+        <div class="message" id="3f">
+            <div class="message-body">
+                <div class="message-text">
+                    <h2>
+                        <b>contact</b>
+                        <strong>ME</strong>
+                    </h2>
+                    <dl>
+                        <dt>Mobile phone</dt>
+                        <dd>15821764237</dd>
+                    </dl>
+                    <dl>
+                        <dt>QQ</dt>
+                        <dd>309617659</dd>
+                    </dl>
+                    <dl>
+                        <dt>email</dt>
+                        <dd>309617659@qq.com</dd>
+                    </dl>
+                </div>
+                <div class="message-map">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="right-fixed">
+        <div id="js-rFixed">
+            <ol>
+                <li class="weixin">
+                    <div>微信：xqhs521</div>
+                </li>
+                <li class="tel">
+                    <div>手机：15821764237</div>
+                </li>
+                <li class="qq">
+                    <div>QQ：309617659</div>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="backtop" id="js-backtop"></div>
+<!--
+footer
+-->
+    <footer>
+    <div class="footer">
+        <div class="footer-body">
+            <div class="ft-lt">
+                <h4>leave a message</h4>
+
+                <form>
+                    <input type="text" value="MESSAGE TITLE" class="ft-ipt" id="js-ipt01"/>
+                    <input type="text" value="NAME" class="ft-ipt" id="js-ipt02"/>
+                    <textarea name="mess" id="ft-ta">MESSAGE</textarea>
+                    <input type="submit" value="SUBMIT" class="ft-btn" id="js-submit"/>
+                </form>
+            </div>
+            <div class="ft-rt">
+                <ul>
+                    <li>Copyright: Huangshan, pirated reserved</li>
+                    <li>版权所有：黄山 翻版必究</li>
+                    <li>手机：15821764237</li>
+                    <li>邮箱：309617659@qq.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
